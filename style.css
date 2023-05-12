@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+}
+:root{
+    --cor1:#F24405;
+    --cor2:#037F8C;
+    --cor3:#023859;
+    --cor4:#ffffff;
+
+}
+body{
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/**Cabeçalho**/
+
+header{
+    display: inline-flex;
+    color: var(--cor2);
+    
+}
+.logomarca{
+    margin-left: 5px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.logomarca h1{
+    font-family: 'Ultra', serif;
+}
+
+/**Menu**/
+
+nav{
+    text-align: center;
+    background-color:var(--cor3) ;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 3px solid var(--cor1);
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    margin: 0 60px;
+    text-decoration: none;
+    color: var(--cor4);
+}
+nav ul li:hover{
+    background-color: var(--cor2);
+    border-radius: 10px;
+    padding: 3px auto;
+    transition: 1s;
+}
+
+/**Inicio - Primeiro Artigo (apresentação)**/
+
+.pagina_inicial{
+    display: flex;
+    background-color: white;
+    color: var(--cor3);
+    font-family: sans-serif;
+    margin: 10px;
+}
+.pagina_inicial img{
+    text-align: center;
+}
+.pagina_inicial h2{
+    margin-top: 7%;
+    text-align: center; 
+}
+span{
+    color: #F24405;
+}
+
+/**Inicio - Segundo Artigo (descrição)**/
+
+.descricao{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 5px;
+}
+.descricao > div{
+    border: 5px solid white;
+    color:var(--cor4);
+    border-radius: 15px;
+    background-color: var(--cor2);
+    
+}
+.descricao div h2{
+    background-color: var(--cor3);
+    color: var(--cor4);
+    border-radius: 10px 10px 0px 0px;
+}
+
+/**Inicio - Terceiro Artigo (informações)**/
+
+.informacao{
+    text-align: center;
+    background-color: var(--cor3);
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.botao1 input{
+    color: var(--cor4);
+    background-color: var(--cor1);
+    height: 25px;
+    width: 600px; 
+    border-radius: 15px;
+    margin: 10px;
+}
+.cadastro input{
+
+    width: 300px; 
+    height: 25px;
+    border-radius: 15px;
+    border: var(--cor4) solid 2px;
+}
+
+/**Sobre a Clinica**/
+.sobre{
+    color: #023859;
+}
+.sobre h1{
+    text-align: center;
+}
+.sobre h3{
+    color: var(--cor1);
+}
+
+/**Horário de Atendimento - Tabela **/
+
+.horario{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: var(--cor3);
+    margin: 20px;
+}
+
+/** Contato - Formulário**/
+form h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: var(--cor3);
+}
+form fieldset{
+    display: block;
+    text-align: justify;
+    font-family: sans-serif;
+    margin: 20px;
+    color: var(--cor3);
+}
+form input{
+border-radius: 5px;
+padding: 4px;
+margin: 3px;
+}
+.botao2{
+    text-align: center;
+    
+}
+.botao2 input{
+    background-color: var(--cor1);
+    color: white;
+    height: 25px;
+    width: 200px; 
+    border-radius: 15px;
+    margin: 10px;
+}
+
+/**Rodapé**/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor3);
+    color: white;
+    font-family: sans-serif;
+}
+.autor{
+    text-align: center;
+}
